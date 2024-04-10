@@ -22,6 +22,21 @@ def server(input, output, session):
     #   The update method should return a string about which method was used when inserting the patient
     #   (Generate new data if only the patient_id input is present or load the data from csv file, if file is present).
     #   Assign the result to the txt_status variable here in server using a method '.set()' on a reactive Value variable
+    @reactive.Effect
+    @reactive.event(input.create_button_id)
+    def create_button():
+        patient_id = input.new_patient_id()
+        file_info = input.new_file_id()
+
+        if patient_id:
+            result = utils.update_patient_data(df_reactive.get(), patient_id)
+            txt_status.set(result)
+        elif file_info:
+            result = utils.update_patient_data(df_reactive.get(), file_info)
+            txt_status.set(result)
+        else:
+            txt_status.set("No action performed. Please provide patient ID or upload a CSV file.")
+
 
     @reactive.Effect
     @reactive.event(input.update_data)
@@ -68,7 +83,7 @@ def server(input, output, session):
         if input.view_type() == data.views['table']:
             patient_id = input.patient_id()
             measurement_type = input.stats()
-            patient_data_df = df_reactive.get().loc[:, (patient_id, measurement_type)]
+            patient_data_df = df_reactive.get().loc[:, (patient_id, measurement_type)] # ":" -> Vsetky riadky
             return pd.DataFrame(patient_data_df).reset_index()
 
     @output
