@@ -1,0 +1,10 @@
+2024-04-24 23:12:11,223, Logistic Regression, Replication: 0, Accuracy: 0.9790, F1: 0.9783, ROC AUC: 0.9937,  Params: {'C': 10, 'max_iter': 10000}
+2024-04-24 23:12:11,287, Logistic Regression, Replication: 1, Accuracy: 0.9755, F1: 0.9758, ROC AUC: 0.9978,  Params: {'C': 10, 'max_iter': 10000}
+2024-04-24 23:12:11,346, Logistic Regression, Replication: 2, Accuracy: 0.9790, F1: 0.9783, ROC AUC: 0.9993,  Params: {'C': 10, 'max_iter': 10000}
+2024-04-24 23:12:11,416, Logistic Regression, Replication: 3, Accuracy: 0.9790, F1: 0.9796, ROC AUC: 0.9975,  Params: {'C': 10, 'max_iter': 10000}
+2024-04-24 23:12:11,472, Logistic Regression, Replication: 4, Accuracy: 0.9720, F1: 0.9732, ROC AUC: 0.9961,  Params: {'C': 10, 'max_iter': 10000}
+2024-04-24 23:12:11,549, Logistic Regression, Replication: 5, Accuracy: 0.9825, F1: 0.9818, ROC AUC: 0.9994,  Params: {'C': 10, 'max_iter': 10000}
+2024-04-24 23:12:11,628, Logistic Regression, Replication: 6, Accuracy: 0.9930, F1: 0.9933, ROC AUC: 0.9951,  Params: {'C': 10, 'max_iter': 10000}
+2024-04-24 23:12:11,695, Logistic Regression, Replication: 7, Accuracy: 0.9825, F1: 0.9818, ROC AUC: 0.9925,  Params: {'C': 10, 'max_iter': 10000}
+2024-04-24 23:12:11,766, Logistic Regression, Replication: 8, Accuracy: 0.9790, F1: 0.9792, ROC AUC: 0.9950,  Params: {'C': 10, 'max_iter': 10000}
+2024-04-24 23:12:11,825, Logistic Regression, Replication: 9, Accuracy: 0.9580, F1: 0.9583, ROC AUC: 0.9879,  Params: {'C': 10, 'max_iter': 10000}

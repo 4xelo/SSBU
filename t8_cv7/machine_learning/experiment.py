@@ -9,7 +9,7 @@ from machine_learning.data_handling import DataScaler
 from machine_learning.model_wrappers import ModelOptimizer, ModelTrainer
 
 # Set up logging to record model accuracies in a CSV file
-logging.basicConfig(filename='../outputs/model_accuracies.csv', filemode='w',  level=logging.INFO, format='%(asctime)s, %(message)s')
+logging.basicConfig(filename='../outputs/model_accuracies.csv', filemode='w', level=logging.INFO, format='%(asctime)s, %(message)s')
 
 class Experiment:
     """A class to handle the entire experiment of training and evaluating models."""
