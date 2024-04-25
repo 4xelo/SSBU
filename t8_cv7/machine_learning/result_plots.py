@@ -5,7 +5,7 @@ import seaborn as sns
 class Plotter:
     """A class for plotting the results of machine learning experiments."""
 
-    def plot_metric_density(self, results, metrics=('accuracy', 'f1_score', 'roc_auc')):
+    def plot_metric_density(self, results, metrics=('accuracy', 'f1_score', 'roc_auc', 'sensitivity')):
         """
         Plot density plots for specified metrics.
 
@@ -44,6 +44,7 @@ class Plotter:
         plt.ylabel(metric_name)
         plt.legend()
         plt.show()
+        plt.savefig(f"{title}.png")
 
     def plot_confusion_matrices(self, confusion_matrices):
         """

@@ -1,10 +1,20 @@
-2024-04-24 23:12:11,223, Logistic Regression, Replication: 0, Accuracy: 0.9790, F1: 0.9783, ROC AUC: 0.9937,  Params: {'C': 10, 'max_iter': 10000}
-2024-04-24 23:12:11,287, Logistic Regression, Replication: 1, Accuracy: 0.9755, F1: 0.9758, ROC AUC: 0.9978,  Params: {'C': 10, 'max_iter': 10000}
-2024-04-24 23:12:11,346, Logistic Regression, Replication: 2, Accuracy: 0.9790, F1: 0.9783, ROC AUC: 0.9993,  Params: {'C': 10, 'max_iter': 10000}
-2024-04-24 23:12:11,416, Logistic Regression, Replication: 3, Accuracy: 0.9790, F1: 0.9796, ROC AUC: 0.9975,  Params: {'C': 10, 'max_iter': 10000}
-2024-04-24 23:12:11,472, Logistic Regression, Replication: 4, Accuracy: 0.9720, F1: 0.9732, ROC AUC: 0.9961,  Params: {'C': 10, 'max_iter': 10000}
-2024-04-24 23:12:11,549, Logistic Regression, Replication: 5, Accuracy: 0.9825, F1: 0.9818, ROC AUC: 0.9994,  Params: {'C': 10, 'max_iter': 10000}
-2024-04-24 23:12:11,628, Logistic Regression, Replication: 6, Accuracy: 0.9930, F1: 0.9933, ROC AUC: 0.9951,  Params: {'C': 10, 'max_iter': 10000}
-2024-04-24 23:12:11,695, Logistic Regression, Replication: 7, Accuracy: 0.9825, F1: 0.9818, ROC AUC: 0.9925,  Params: {'C': 10, 'max_iter': 10000}
-2024-04-24 23:12:11,766, Logistic Regression, Replication: 8, Accuracy: 0.9790, F1: 0.9792, ROC AUC: 0.9950,  Params: {'C': 10, 'max_iter': 10000}
-2024-04-24 23:12:11,825, Logistic Regression, Replication: 9, Accuracy: 0.9580, F1: 0.9583, ROC AUC: 0.9879,  Params: {'C': 10, 'max_iter': 10000}
+2024-04-25 15:22:38,839, Logistic Regression, Replication: 0, Accuracy: 0.9650, F1: 0.9650, ROC AUC: 0.9976, SensitivityConf: 0.9718,Sensitivity: 0.9718 , Params: {'C': 10, 'max_iter': 10000}
+2024-04-25 15:22:58,662, Random Forest, Replication: 0, Accuracy: 0.9545, F1: 0.9559, ROC AUC: 0.9880, SensitivityConf: 0.9792,Sensitivity: 0.9792 , Params: {'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 100}
+2024-04-25 15:22:58,720, Logistic Regression, Replication: 1, Accuracy: 0.9685, F1: 0.9680, ROC AUC: 0.9943, SensitivityConf: 0.9714,Sensitivity: 0.9714 , Params: {'C': 10, 'max_iter': 10000}
+2024-04-25 15:23:18,663, Random Forest, Replication: 1, Accuracy: 0.9650, F1: 0.9662, ROC AUC: 0.9848, SensitivityConf: 0.9728,Sensitivity: 0.9728 , Params: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 50}
+2024-04-25 15:23:18,723, Logistic Regression, Replication: 2, Accuracy: 0.9720, F1: 0.9718, ROC AUC: 0.9946, SensitivityConf: 0.9583,Sensitivity: 0.9583 , Params: {'C': 10, 'max_iter': 10000}
+2024-04-25 15:23:37,870, Random Forest, Replication: 2, Accuracy: 0.9615, F1: 0.9614, ROC AUC: 0.9944, SensitivityConf: 0.9648,Sensitivity: 0.9648 , Params: {'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 50}
+2024-04-25 15:23:37,925, Logistic Regression, Replication: 3, Accuracy: 0.9685, F1: 0.9677, ROC AUC: 0.9934, SensitivityConf: 0.9712,Sensitivity: 0.9712 , Params: {'C': 10, 'max_iter': 10000}
+2024-04-25 15:23:58,275, Random Forest, Replication: 3, Accuracy: 0.9580, F1: 0.9597, ROC AUC: 0.9921, SensitivityConf: 0.9470,Sensitivity: 0.9470 , Params: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}
+2024-04-25 15:23:58,331, Logistic Regression, Replication: 4, Accuracy: 0.9755, F1: 0.9753, ROC AUC: 0.9976, SensitivityConf: 0.9650,Sensitivity: 0.9650 , Params: {'C': 1, 'max_iter': 10000}
+2024-04-25 15:24:19,868, Random Forest, Replication: 4, Accuracy: 0.9650, F1: 0.9645, ROC AUC: 0.9947, SensitivityConf: 0.9927,Sensitivity: 0.9927 , Params: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 50}
+2024-04-25 15:24:19,925, Logistic Regression, Replication: 5, Accuracy: 0.9685, F1: 0.9695, ROC AUC: 0.9967, SensitivityConf: 0.9795,Sensitivity: 0.9795 , Params: {'C': 10, 'max_iter': 10000}
+2024-04-25 15:24:40,452, Random Forest, Replication: 5, Accuracy: 0.9755, F1: 0.9736, ROC AUC: 0.9942, SensitivityConf: 0.9847,Sensitivity: 0.9847 , Params: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 50}
+2024-04-25 15:24:40,511, Logistic Regression, Replication: 6, Accuracy: 0.9755, F1: 0.9754, ROC AUC: 0.9959, SensitivityConf: 0.9653,Sensitivity: 0.9653 , Params: {'C': 10, 'max_iter': 10000}
+2024-04-25 15:25:02,617, Random Forest, Replication: 6, Accuracy: 0.9650, F1: 0.9638, ROC AUC: 0.9937, SensitivityConf: 0.9638,Sensitivity: 0.9638 , Params: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 200}
+2024-04-25 15:25:02,677, Logistic Regression, Replication: 7, Accuracy: 0.9825, F1: 0.9837, ROC AUC: 0.9939, SensitivityConf: 0.9869,Sensitivity: 0.9869 , Params: {'C': 10, 'max_iter': 10000}
+2024-04-25 15:25:23,893, Random Forest, Replication: 7, Accuracy: 0.9685, F1: 0.9691, ROC AUC: 0.9937, SensitivityConf: 0.9724,Sensitivity: 0.9724 , Params: {'max_depth': None, 'min_samples_leaf': 4, 'min_samples_split': 5, 'n_estimators': 100}
+2024-04-25 15:25:23,953, Logistic Regression, Replication: 8, Accuracy: 0.9895, F1: 0.9898, ROC AUC: 0.9988, SensitivityConf: 0.9932,Sensitivity: 0.9932 , Params: {'C': 10, 'max_iter': 10000}
+2024-04-25 15:25:46,148, Random Forest, Replication: 8, Accuracy: 0.9650, F1: 0.9638, ROC AUC: 0.9917, SensitivityConf: 0.9500,Sensitivity: 0.9500 , Params: {'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 100}
+2024-04-25 15:25:46,203, Logistic Regression, Replication: 9, Accuracy: 0.9790, F1: 0.9778, ROC AUC: 0.9987, SensitivityConf: 0.9778,Sensitivity: 0.9778 , Params: {'C': 10, 'max_iter': 10000}
+2024-04-25 15:26:08,707, Random Forest, Replication: 9, Accuracy: 0.9755, F1: 0.9758, ROC AUC: 0.9954, SensitivityConf: 0.9792,Sensitivity: 0.9792 , Params: {'max_depth': 5, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 100}
