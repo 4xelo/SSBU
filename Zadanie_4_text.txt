@@ -4,4 +4,6 @@
 
 2.
 	H0 LR = 7.043e+006, pravdepodobnost = 0.99999986
-	H1 LR = 1, pravdepodobnost = 1.419922e-007
+	HA LR = 1, pravdepodobnost = 1.419922e-007
+
+Vyhodnotenie - Alternatívnu hypotézu zamietam v prospech H0 nakoľko LR H0 je vysoké -> aj pravdepodobnost H0 je vysoka čo naznačuje, že existuje vysoká podpora pre tvrdenie "Strýkovia, mama a dieťa si sú príbuzní".
